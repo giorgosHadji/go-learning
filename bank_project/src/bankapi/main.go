@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"strconv"
 )
-
+// as this is outside of a function we need to use var and cannot use <:=> to declare the variable
 var accounts = map[float64]*bank.Account{}
 
 func main() {
